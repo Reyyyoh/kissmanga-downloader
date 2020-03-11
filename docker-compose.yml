@@ -13,7 +13,7 @@ services:
       - java
       - -jar
       - /kissmanga-downloader.jar
-      - http://kissmanga.com/Manga/Shingeki-no-Kyojin
+      - https://kissmanga.com/Manga/Okusama-ga-Seito-Kaichou/Vol-001-Ch-001--The-SC-President-s-married-into-Family?id=160398
   selenium:
     image: "elgalu/selenium:latest"
     ports:
